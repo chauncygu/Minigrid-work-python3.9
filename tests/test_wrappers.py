@@ -25,7 +25,7 @@ from minigrid.wrappers import (
     SymbolicObsWrapper,
     ViewSizeWrapper,
 )
-from tests.utils import all_testing_env_specs, assert_equals, minigrid_testing_env_specs
+from utils import all_testing_env_specs, assert_equals, minigrid_testing_env_specs
 
 SEEDS = [100, 243, 500]
 NUM_STEPS = 100
