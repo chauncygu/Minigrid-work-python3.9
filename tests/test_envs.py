@@ -11,7 +11,7 @@ from gymnasium.utils.env_checker import check_env, data_equivalence
 
 from minigrid.core.grid import Grid
 from minigrid.core.mission import MissionSpace
-from minigrid.tests.utils import all_testing_env_specs, assert_equals
+from utils import all_testing_env_specs, assert_equals
 
 CHECK_ENV_IGNORE_WARNINGS = [
     f"\x1b[33mWARN: {message}\x1b[0m"
