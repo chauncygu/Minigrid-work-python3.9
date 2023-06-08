@@ -20,6 +20,12 @@ Note that the library was previously known as gym-minigrid and it has been refer
 
 To install the Minigrid library use `pip install minigrid`.
 
+or
+`pip install -e .`
+then
+`pip install pytest_mock
+pip install pytest`
+
 We support Python 3.7, 3.8, 3.9 and 3.10 on Linux and macOS. We will accept PRs related to Windows, but do not officially support it.
 
 # Environments
